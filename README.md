@@ -9,6 +9,14 @@ Patches qwindows.dll's calls to CreateFontIndirectW
 ## But like...
 I'm under no illusion that such a direct binary patch without wildcard searches will hold up, but between the source and the info below, it should be relatively easy to recreate it.
 
+# Is it that bad?
+Before: Is it an 8 or a B? God himsself could not help you here.
+![kingstvis with the crappy small font](before.png)
+
+After: Awww yeah. Look at that. It's hideous. But legible.
+![kingstvis with the awesome big font](after.png)
+
+
 ## Steps:
 - Start spooky bug (X64DBG) and open KingstVis.exe
 - At the first sys breakpoint open the Symbols page, select `gdi32.dll` on the left and breakpoint on `CreateFontIndirectW` on the right (F2)
