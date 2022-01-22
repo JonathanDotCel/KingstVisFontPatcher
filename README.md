@@ -10,7 +10,7 @@ Patches qwindows.dll's calls to CreateFontIndirectW
 I'm under no illusion that such a direct binary patch without wildcard searches will hold up, but between the source and the info below, it should be relatively easy to recreate it.
 
 # Is it that bad?
-Before: Is it an 8 or a B? God himsself could not help you here.
+Before: Is it an 8 or a B? God himself could not help you here.
 ![kingstvis with the crappy small font](before.png)
 
 After: Awww yeah. Look at that. It's hideous. But legible.
