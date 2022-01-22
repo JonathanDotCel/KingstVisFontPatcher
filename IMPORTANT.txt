@@ -1,0 +1,7 @@
+move the original .dll out of the folder
+
+even if you have
+`qwindows_original.dllx`
+or so, it'll sometimes get loaded.
+
+Yeah I know...
